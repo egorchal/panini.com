@@ -462,3 +462,9 @@ header .header-content .menu p img:active{
 header .header-content .menu p img{
     transition-duration: 0.4s;
 }
+
+@media only screen and (max-width:480px){
+    .container{
+        max-width: 480px;
+    }
+}
