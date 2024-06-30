@@ -466,5 +466,6 @@ header .header-content .menu p img{
 @media only screen and (max-width:480px){
     .container{
         max-width: 480px;
+        max-height: 3800px;
     }
 }
