@@ -441,9 +441,24 @@ header .header-content .logo a img:focus{
 
 header .header-content .logo a img:active{
     filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
-
 }
 
 header .header-content .logo a img{
+    transition-duration: 0.4s;
+}
+
+header .header-content .menu p img:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+header .header-content .menu p img:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+header .header-content .menu p img:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+}
+
+header .header-content .menu p img{
     transition-duration: 0.4s;
 }
