@@ -463,7 +463,7 @@ header .header-content .menu p img{
     transition-duration: 0.4s;
 }
 
-@media only screen and (max-width:1080px){
+@media only screen and (max-width:1500px){
     body{
 
         max-width: 400px;
