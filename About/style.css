@@ -43,7 +43,7 @@ header {
     color: #4C5866
 }
 
-.menu p {
+.menu p a{
     margin-right: 60px;
     font-family: "Roboto";
     font-size: 24px;
@@ -104,6 +104,22 @@ header .header-content p a:focus{
 
 header .header-content p a:active{
     color: #FF4A4A;
+}
+
+header .header-content .menu p:default{
+    color: #4C5866;
+}
+
+header .header-content .menu p:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+header .header-content .menu p:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+header .header-content .menu p:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
 }
 
 .hero {
@@ -238,4 +254,49 @@ footer #number{
 
 footer #number{
     width: 270px;
+}
+
+footer .social a img:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+footer .social a img:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+footer .social a img:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+}
+
+footer .footer-content a:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+footer .footer-content a:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+footer .footer-content a:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+}
+
+footer .footer-content a{
+    transition-duration: 0.4s;
+}
+
+header .header-content .logo a img:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+header .header-content .logo a img:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+header .header-content .logo a img:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+
+}
+
+header .header-content .logo a img{
+    transition-duration: 0.4s;
 }
