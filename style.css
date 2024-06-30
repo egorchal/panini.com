@@ -1,0 +1,622 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(fonts/Ubuntu/Ubuntu-Light.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    width: 1440px;
+    max-height: 2725px;
+    margin: auto;
+}
+
+header {
+    max-height: 123px;
+    height: 123px;
+    margin-top: 31px;
+}
+
+.header-content {
+    height: 123px;
+    display: flex;
+}
+
+.logo {
+    margin-left: 128px;
+    height: 61px;
+}
+
+.menu {
+    margin-left: 425px;
+    display: flex;
+    height: 31px;
+}
+
+.menu p a{
+    color: #4C5866
+}
+
+.menu p a{
+    margin-right: 60px;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400px;
+    color: #4C5866;
+}
+
+.menu p img {
+    height: 31px;
+    width: 37px;
+    margin-top: 4px;
+}
+
+.menu p:last-child {
+    margin-right: 0;
+}
+
+.logo a {
+    display: block;
+    height: 61px;
+}
+
+.logo img {
+    width: 233px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#rectangle1 {
+    height: 1px;
+    width: 1440px;
+    position: absolute;
+    top: 123px;
+}
+
+.hero {
+    display: block;
+}
+
+.hero .banner {
+    display: flex;
+    height: 620px;
+}
+
+.hero .banner .phrase {
+    margin-top: 113px;
+    margin-left: 179px;
+    width: 300px;
+}
+
+.hero .banner img {
+    height: 535px;
+    width: 535px;
+    margin-left: 263px;
+}
+
+.hero .banner .phrase p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    font-size: 96px;
+    color: #4C5866;
+}
+
+.hero .banner .phrase p:last-child {
+    margin-bottom: 43px;
+}
+
+.hero .banner .phrase button {
+    height: 60px;
+    width: 214px;
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #FF8282;
+    background-color: white;
+    border: 2px solid #FF8282;
+}
+
+.hero .firsthero #hero {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Roboto";
+    font-size: 96px;
+    color: #4C5866;
+}
+
+.hero .firsthero #rectangle2 {
+    position: absolute;
+    top: 743px;
+    z-index: -1;
+}
+
+.hero .firsthero .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .firsthero .card .set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .firsthero .card> :nth-child(1) {
+    margin-left: 78px;
+}
+
+.hero .firsthero .card> :nth-child(2) {
+    margin-top: 16px;
+}
+
+.hero .firsthero .card> :nth-child(3) {
+    margin-right: 21px;
+    margin-top: 20px;
+}
+
+.hero .firsthero .card .set #name {
+    width: auto;
+    max-width: 312px;
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #4C5866;
+    margin: 0;
+}
+
+.hero .firsthero .card .set #aboutset {
+    width: auto;
+    max-width: 440px;
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #A7A7A7;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.hero .firsthero .card .set #count {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #4C5866;
+    margin: 0;
+    margin-top: 11px;
+}
+
+.hero .firsthero .card .set button{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #FF8282;
+    background-color: white;
+    border: 2px solid #FF8282;
+    width: 188px;
+    height: 60px;
+    margin: 0;
+    margin-top: 17px;
+}
+
+.hero .firsthero {
+    height: 869px;
+}
+
+.hero .secondhero #hero {
+    text-align: center;
+    margin-top: 0;
+    font-family: "Roboto";
+    font-size: 96px;
+    color: #4C5866;
+}
+
+.hero .secondhero #rectangle2 {
+    position: absolute;
+    top: 1612px;
+    z-index: -1;
+}
+
+.hero .secondhero .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .secondhero .card .set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .secondhero .card .set #name {
+    width: auto;
+    max-width: 350px;
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #4C5866;
+    margin: 0;
+}
+
+.hero .secondhero .card .set #aboutset {
+    width: auto;
+    max-width: 440px;
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #A7A7A7;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.hero .secondhero .card .set #count {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #4C5866;
+    margin: 0;
+    margin-top: 11px;
+}
+
+.hero .secondhero .card .set button{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #FF8282;
+    background-color: white;
+    border: 2px solid #FF8282;
+    width: 188px;
+    height: 60px;
+    margin: 0;
+    margin-top: 17px;
+}
+
+.hero .secondhero .card> :nth-child(1) {
+    margin-left: 78px;
+}
+
+.hero .secondhero .card> :nth-child(3) {
+    margin-right: 57px;
+}
+
+footer {
+    height: 172px;
+    margin-top: 68px;
+}
+
+footer .container .footer-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4C5866;
+    height: 131px;
+}
+
+footer .container .footer-content a:first-child {
+    display: flex;
+    width: 233px;
+    height: 61px;
+}
+
+footer .container .footer-content a:nth-child(2) {
+    color: #FFFFFF;
+    font-family: "Ubuntu";
+    font-size: 32px;
+}
+
+button{
+    transition-duration: 0.4s;
+}
+
+main .container .hero button:hover{
+    background-color: #FF8282;
+    color: #FFFFFF;
+}
+
+main .container .hero button:focus{
+    background-color: #FEE0E0;
+    color: #FF8282;
+}
+
+main .container .hero button:active{
+    background-color: #FE5D5D;
+    border: 2px solid #FE5D5D;
+    color: #FFFFFF;
+}
+
+main .container .hero .firsthero .card .set button:hover{
+    background-color: #FF8282;
+    color: #FFFFFF;
+}
+
+main .container .hero .firsthero .card .set button:focus{
+    background-color: #FEE0E0;
+    color: #FF8282;
+}
+
+main .container .hero .firsthero .card .set button:active{
+    background-color: #FE5D5D;
+    border: 2px solid #FE5D5D;
+    color: #FFFFFF;
+}
+
+main .container .hero .secondhero .card .set button:hover{
+    background-color: #FF8282;
+    color: #FFFFFF;
+}
+
+main .container .hero .secondhero .card .set button:focus{
+    background-color: #FEE0E0;
+    color: #FF8282;
+}
+
+main .container .hero .secondhero .card .set button:active{
+    background-color: #FE5D5D;
+    border: 2px solid #FE5D5D;
+    color: #FFFFFF;
+}
+
+header .header-content p a{
+    transition-duration: 0.4s;
+}
+
+header .header-content p a:default{
+    color: #4C5866;
+}
+
+header .header-content p a:hover{
+    color: #FF8282;
+}
+
+header .header-content p a:focus{
+    color: #FFA6A6;
+}
+
+header .header-content p a:active{
+    color: #FF4A4A;
+}
+
+footer .social a img{
+    transition-duration: 0.4s;
+    margin: 0 15px;
+    height: 40px;
+}
+
+footer .social{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 243px;
+}
+
+footer #logo2{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer #number{
+    display: flex;
+    margin-top: 42px;
+}
+
+footer #number{
+    width: 270px;
+}
+
+footer .social a img:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+footer .social a img:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+footer .social a img:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+}
+
+footer .footer-content a:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+footer .footer-content a:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+footer .footer-content a:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+}
+
+footer .footer-content a{
+    transition-duration: 0.4s;
+}
+
+header .header-content .logo a img:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+header .header-content .logo a img:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+header .header-content .logo a img:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+}
+
+header .header-content .logo a img{
+    transition-duration: 0.4s;
+}
+
+header .header-content .menu p img:hover{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(21%) saturate(5166%) hue-rotate(306deg) brightness(100%) contrast(113%);
+}
+
+header .header-content .menu p img:focus{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(28%) saturate(5494%) hue-rotate(292deg) brightness(100%) contrast(104%);
+}
+
+header .header-content .menu p img:active{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(23%) saturate(1633%) hue-rotate(314deg) brightness(111%) contrast(112%);
+}
+
+header .header-content .menu p img{
+    transition-duration: 0.4s;
+}
+
+@media only screen and (max-width:480px){
+    body{
+
+        max-width: 400px;
+        margin: 0;
+    }
+    .container{
+        max-width: 400px;
+        max-height: 3800px;
+    }
+    header{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content .logo {
+        width: 172px;
+        margin:0;
+        margin-left: 97px;
+    }
+    .header-content .logo a img{
+        width: 172px;
+    }
+    .menu{
+        width: 100%;
+        max-width: 480px;
+        width: 340px;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 15px;
+    }
+    
+    .menu p{
+        margin: 0;
+    }
+    .menu p a{
+        margin: 0;
+        font-size: 16px;
+    }
+    .menu p img{
+        margin: 0;
+        max-width: 73px;
+        width: 35px;
+        height: 30px;
+    }
+    .hero .banner .phrase p{
+        font-size: 32px;
+    }
+    .hero .banner{
+        height: 420px;
+        margin: 0
+    }
+    .hero .banner .phrase{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .hero .banner .phrase p{
+        margin: 0;
+        max-width: 480px;
+    }
+    .hero .banner .phrase>:nth-child(1){
+        margin-left: 97px;
+    }
+    .hero .banner .phrase>:nth-child(2){
+        margin-left: 196px;
+    }
+    .hero .banner .phrase>:nth-child(3){
+        width: 150px;
+        height: 40px;
+        font-size: 24px;
+        margin-top: 269px;
+        margin-left: 125px;
+    }
+    .hero .banner img{
+        margin: 0;
+        width: 277px;
+        height: 269px;
+        position: absolute;
+        left: 56px;
+        top: 203px;
+    }
+    .hero .firsthero{
+        height: 1510px;
+    }
+    .hero .firsthero .temp #hero{
+        font-size: 32px;
+    }
+    .hero .firsthero .temp #rectangle2{
+        width: 390px;
+        height: 40px;
+        position: absolute;
+        top:552px;
+    }
+    .hero .firsthero .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero .firsthero .card img{
+        height: 227px;
+    }
+    .hero .firsthero .card .set #name{
+        font-size: 24px;
+    }
+    .hero .firsthero .card .set #aboutset{
+        font-size: 20px;
+    }
+    .hero .firsthero .card .set #count{
+        font-size: 16px;
+    }
+    .hero .secondhero .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .secondhero .card .set #name{
+        font-size: 24px;
+    }
+    .hero .secondhero .card .set #aboutset{
+        font-size: 20px;
+    }
+    .hero .secondhero .card .set #count{
+        font-size: 16px;
+    }
+    .hero .secondhero .card img{
+        height: 227px;
+    }
+    .hero .firsthero .card .set{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .hero .secondhero .temp #hero{
+        font-size: 32px;
+    }
+    .hero .secondhero .temp #rectangle2{
+        height: 40px;
+        width: 390px;
+        position: absolute;
+        top: 2062px;
+
+    }
+    .hero .secondhero .card .set{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .hero .secondhero{
+        height: 1580px;
+    }
+    footer{
+        margin: 0;
+    }
+}
