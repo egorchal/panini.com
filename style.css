@@ -621,5 +621,34 @@ header .header-content .menu p img{
     }
     footer{
         margin: 0;
+        width: 390px;
+    }
+    .footer-content #logo2 {
+        height: 30px;
+        width: 172px;
+        margin:0;
+        margin-top:24px;
+    }
+    .footer-content #logo2 img{
+        height: 30px;
+        width: 125px;
+    }
+    .footer-content #number{
+        margin: 0;
+        height: 23px;
+        font-size: 20px;
+        width: 169px;
+        position: absolute;
+        top: 3695px;
+    }
+    footer .container .footer-content {
+        height: 80px;
+    }
+    .footer-content .social a img{
+        width: 24px;
+        height: 24px;
+    }
+    .footer-content .social{
+        height: 24px;
     }
 }
