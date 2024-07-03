@@ -291,11 +291,14 @@ footer .container .footer-content {
     background-color: #4C5866;
     height: 131px;
 }
-
-footer .container .footer-content a:first-child {
-    display: flex;
-    width: 233px;
-    height: 61px;
+footer .container .footer-content #logo2{
+    margin: 0;
+    margin-top: 25px;
+    width: 231px;
+}
+footer .container .footer-content #logo2 img{
+    height: 46%;
+    width: 100%;
 }
 
 footer .container .footer-content a:nth-child(2) {
@@ -462,18 +465,17 @@ header .header-content .menu p img:active{
 header .header-content .menu p img{
     transition-duration: 0.4s;
 }
-
-@media only screen and (max-width:425px){
+@media only screen and (max-width:450px){
     body{
-        max-width: 390px;
+        max-width: 100%;
         margin: 0;
     }
     .container{
-        max-width: 390px;
+        max-width: 100%;
         max-height: 3800px;
     }
     .header-content #rectangle1{
-        width: 390px;
+        max-width: 100%;
     }
     header{
         margin: 0;
@@ -486,15 +488,15 @@ header .header-content .menu p img{
     .header-content .logo {
         width: 172px;
         margin:0;
-        margin-left: 109px;
+        margin-left: 30%;
     }
     .header-content .logo a img{
         width: 172px;
     }
     .menu{
         width: 100%;
-        max-width: 390px;
-        width: 380px;
+        max-width: 100%;
+        width: 97%;
         margin: 0;
         display: flex;
         flex-wrap: wrap;
@@ -519,59 +521,64 @@ header .header-content .menu p img{
         font-size: 32px;
     }
     .hero .banner{
-        height: 420px;
+        height:100%;;
         margin: 0
     }
     .hero .banner .phrase{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        height: 100%;
         margin: 0;
     }
     .hero .banner .phrase p{
+        
         margin: 0;
-        max-width: 390px;
+        max-width: 100%;
     }
     .hero .banner .phrase>:nth-child(1){
-        margin-left: 97px;
+        margin-left: 20%;
     }
     .hero .banner .phrase>:nth-child(2){
-        margin-left: 196px;
+        margin-left: 52%;
     }
     .hero .banner .phrase>:nth-child(3){
-        width: 150px;
-        height: 40px;
+        width: 40%;
+        height: 10%;
         font-size: 24px;
-        margin-top: 269px;
-        margin-left: 120px;
+        margin-top: 70%;
+        margin-left: 30%;
+        margin-bottom: 5%;
     }
     .hero .banner img{
         margin: 0;
-        width: 277px;
-        height: 269px;
+        width: 60%;
+        height: 30%;
         position: absolute;
-        left: 56px;
+        left: 20%;
         top: 203px;
     }
     .hero .firsthero{
-        max-width: 390px;
-        height: 1510px;
+        max-width: 100%;
+        height: 100%;
     }
     .hero .firsthero .temp #hero{
+        margin-top: 5%;
         font-size: 32px;
     }
     .hero .firsthero .temp #rectangle2{
-        width: 390px;
-        height: 40px;
-        position: absolute;
-        top:552px;
+        max-width: 100%;
+        max-height: 50%;
+        position: relative;
+        top:60px;
     }
     .hero .firsthero .card{
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
     .hero .firsthero .card img{
-        height: 227px;
+        max-height: 50%;
+        max-width: 70%;
     }
     .hero .firsthero .card .set #name{
         font-size: 24px;
@@ -596,64 +603,289 @@ header .header-content .menu p img{
         font-size: 16px;
     }
     .hero .secondhero .card img{
-        height: 227px;
+        max-height: 50%;
+        max-width: 70%;
     }
     .hero .firsthero .card .set{
         margin: 0;
-        margin-top: 10px;
+        margin-top: 2%;
     }
     .hero .secondhero .temp #hero{
         font-size: 32px;
     }
     .hero .secondhero .temp #rectangle2{
-        height: 40px;
-        width: 390px;
-        position: absolute;
-        top: 2062px;
+        max-height: 50%;
+        max-width: 100%;
+        position: relative;
+        top:50px;
 
     }
     .hero .secondhero .card .set{
         margin: 0;
-        margin-top: 10px;
+        margin-top: 2%;
     }
     .hero .secondhero{
-        max-width: 390px;
-        height: 1580px;
+        max-width: 100%;
+        height: 100%;
+
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
     }
     footer{
-        margin: 0;
-        width: 390px;
+        margin-top: 15%;
+        max-width: 100%;
         height: 80px;
     }
-    .footer-content #logo2 {
-        height: 30px;
-        width: 172px;
-        margin:0;
-        margin-top:24px;
-        margin-left: 15px;
+    footer .container .footer-content #logo2{
+        margin: 0;
+        margin-top: 7%;
+        height: 80%;
+        width: 50%;
     }
-    .footer-content #logo2 img{
-        height: 30px;
-        width: 125px;
+    footer .container .footer-content #logo2 img{
+        height: 46%;
+        width: 80%;
     }
     .footer-content #number{
         margin: 0;
         height: 23px;
         font-size: 20px;
         width: 169px;
-        position: absolute;
-        top: 3710px;
+        position: relative  ;
+        top: 35%;
     }
     footer .container .footer-content {
         height: 100px;
     }
     .footer-content .social a img{
-        width: 24px;
-        height: 24px;
+        width: 0%;
+        height: 0%;
     }
     .footer-content .social{
         margin: 0;
         margin-top: 27px;
-        height: 24px;
+        width: 0%;
+        height: 0%;
+    }
+}
+@media only screen and (min-width:450px) and (max-width:770px){
+    body{
+        max-width: 100%;
+        margin: 0;
+    }
+    .container{
+        max-width: 100%;
+        max-height: 3800px;
+    }
+    .header-content #rectangle1{
+        max-width: 100%;
+    }
+    header{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content .logo {
+        width: 172px;
+        margin:0;
+        margin-left: 40%;
+    }
+    .header-content .logo a img{
+        width: 172px;
+    }
+    .menu{
+        width: 100%;
+        max-width: 100%;
+        width: 97%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 15px;
+    }
+    
+    .menu p{
+        margin: 0;
+    }
+    .menu p a{
+        margin: 0;
+        font-size: 16px;
+    }
+    .menu p img{
+        margin: 0;
+        max-width: 73px;
+        width: 35px;
+        height: 30px;
+    }
+    .hero .banner .phrase p{
+        font-size: 32px;
+    }
+    .hero .banner{
+        height:100%;;
+        margin: 0
+    }
+    .hero .banner .phrase{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .hero .banner .phrase p{
+        font-size: 48px;
+        margin: 0;
+        max-width: 10%;
+    }
+    .hero .banner .phrase>:nth-child(1){
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .hero .banner .phrase>:nth-child(2){
+        margin-left: 10%;
+    }
+    .hero .banner .phrase>:nth-child(3){
+        width: 20%;
+        height: 10%;
+        font-size: 24px;
+        margin-top:0%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .hero .banner img{
+        margin: 0;
+        width: 25%;
+        height: 30%;
+        position: relative;
+        left: -10%;
+        top: 20px;
+    }
+    .hero .firsthero{
+        max-width: 100%;
+        height: 100%;
+    }
+    .hero .firsthero .temp #hero{
+        font-size: 48px;
+        margin-top: -2%;
+        font-size: 48px;
+    }
+    .hero .firsthero .temp #rectangle2{
+        max-width: 100%;
+        max-height: 50%;
+        position: relative;
+        top:60px;
+    }
+    .hero .firsthero .card{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hero .firsthero .card img{
+        max-height: 50%;
+        max-width: 70%;
+    }
+    .hero .firsthero .card .set #name{
+        font-size: 24px;
+    }
+    .hero .firsthero .card .set #aboutset{
+        font-size: 20px;
+    }
+    .hero .firsthero .card .set #count{
+        font-size: 16px;
+    }
+    .hero .secondhero .card{
+        display: flex;
+    }
+    .hero .secondhero .card .set #name{
+        font-size: 24px;
+    }
+    .hero .secondhero .card .set #aboutset{
+        font-size: 20px;
+    }
+    .hero .secondhero .card .set #count{
+        font-size: 16px;
+    }
+    .hero .secondhero .card img{
+        max-height: 50%;
+        max-width: 70%;
+    }
+    .hero .firsthero .card .set{
+        margin: 0;
+        justify-content: space-around;
+    }
+    .hero .firsthero .card>:nth-child(3){
+        width: 41%;
+        height: 45%;
+    }
+    .hero .secondhero .temp #hero{
+        font-size: 32px;
+    }
+    .hero .secondhero .temp #rectangle2{
+        max-height: 50%;
+        max-width: 100%;
+        position: relative;
+        top:50px;
+
+    }
+    .hero .secondhero .card .set{
+        margin: 0;
+        justify-content: space-around;
+    }
+    .hero .secondhero .card>:nth-child(2){
+        width: 41%;
+        height: 45%;
+    }
+    .hero .secondhero .card>:nth-child(3){
+        width: 41%;
+        height: 45%;
+    }
+    .hero .secondhero{
+        max-width: 100%;
+        height: 100%;
+
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    footer{
+        margin-top: 10%;
+        max-width: 100%;
+        height: 80px;
+    }
+    footer .container .footer-content #logo2{
+        margin: 0;
+        margin-top: 3%;
+        margin-left: 5%;
+        height: 80%;
+        width: 50%;
+    }
+    footer .container .footer-content #logo2 img{
+        height: 50%;
+        width: 50%;
+    }
+    .footer-content #number{
+        margin: 0;
+        height: 23px;
+        font-size: 20px;
+        width: 169px;
+        position: relative  ;
+        top: 35%;
+    }
+    footer .container .footer-content {
+        height: 100px;
+    }
+    .footer-content .social a img{
+        width: 0%;
+        height: 0%;
+    }
+    .footer-content .social{
+        margin: 0;
+        margin-top: 27px;
+        width: 0%;
+        height: 0%;
     }
 }
